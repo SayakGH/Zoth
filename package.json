@@ -1,0 +1,19 @@
+{
+  "name": "zoth",
+  "version": "1.0.0",
+  "description": "Authentication service provider.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "sayak ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
