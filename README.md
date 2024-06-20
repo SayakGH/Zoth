@@ -1,4 +1,4 @@
-# Zoth 1.0.0
+# Zoth 
 
 > A simple and flexible authentication package for Node.js applications. This package provides utilities for user registration, login, and token management using JSON Web Tokens (JWT).
 
