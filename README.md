@@ -70,7 +70,7 @@ module.exports = connectDB;
 ## Registering a User
 
 ```
-const authService = require('my-auth-package').authService;
+const authService = require('zoth').authService;
 const connectDB = require('./database');
 
 // Connect to MongoDB
@@ -89,7 +89,7 @@ authService.registerUser('newuser', 'newuser@example.com', 'password123')
 ## Logging in a User
 
 ```
-const authService = require('my-auth-package').authService;
+const authService = require('zoth').authService;
 const connectDB = require('./database');
 
 // Connect to MongoDB
@@ -108,7 +108,7 @@ authService.loginUser('newuser', 'password123')
 ## Verifying a Token
 
 ```
-const tokenService = require('my-auth-package').tokenService;
+const tokenService = require('zoth').tokenService;
 
 // Token to verify
 const token = 'your.jwt.token.here';
@@ -127,7 +127,7 @@ tokenService.verifyToken(token)
 ## Getting User from Token
 
 ```
-const tokenService = require('my-auth-package').tokenService;
+const tokenService = require('zoth').tokenService;
 
 // Token to decode
 const token = 'your.jwt.token.here';
@@ -155,8 +155,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 
 ## Contact
-For any questions or support, please open an issue or contact the author at your.email@example.com.
-
-## License
-[MIT License] © Sayak Ghosh
-gid
+For any questions or support, please open an issue or contact the author at your sayakghosh2004sg@gmail.com.
