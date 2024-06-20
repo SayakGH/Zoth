@@ -155,4 +155,11 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 
 ## Contact
+<<<<<<< HEAD
 For any questions or support, please open an issue or contact the author at your sayakghosh2004sg@gmail.com.
+=======
+For any questions or support, please open an issue or contact the author at sayakghosh2004sg@gmail.com
+
+## License
+[MIT License] © Sayak Ghosh
+>>>>>>> c86219000ce9e77e25ff5647fec20a3b6e7bfd73
